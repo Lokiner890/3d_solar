@@ -23,7 +23,7 @@ export const createPath = (radius: number) => {
 
   const mesh = new THREE.Line(geometry, material);
   mesh.scale.set(radius, radius, radius);
-  mesh.visible = false;
+  mesh.visible = true;
 
   return mesh;
 };

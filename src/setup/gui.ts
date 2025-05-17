@@ -3,11 +3,11 @@ import { SolarSystem } from "./solar-system";
 import { LAYERS } from "../constants";
 
 export const options = {
-  showPaths: false,
+  showPaths: true,
   showMoons: true,
   focus: "Звезда",
   clock: true,
-  speed: 0.125,
+  speed: 10,
   zangle: 0,
   yangle: 0,
 };

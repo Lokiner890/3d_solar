@@ -7,7 +7,7 @@ export default {
     open: false,
   },
   build: {
-    outDir: "../dist",
+    outDir: "../build",
     emptyOutDir: true,
     sourcemap: true,
   },

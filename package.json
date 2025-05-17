@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Lokiner890.github.io/3d_solar",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+     "predeploy": "npm run build",
+    "deploy":   "gh-pages -d build"
   },
   "devDependencies": {
     "@types/three": "^0.154.0",
+    "gh-pages": "^6.3.0",
     "sass": "^1.64.1",
     "vite": "^4.5.5"
   },

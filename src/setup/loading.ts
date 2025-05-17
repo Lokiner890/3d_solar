@@ -1,14 +1,13 @@
 // List of prompts to display whilst loading textures.
 const loadingPrompts = [
-  "Detecting neutrinos",
-  "Forming event horizons",
-  "Annihilating particles",
-  "Tunneling electrons",
-  "Entangling photons",
-  "Collapsing wavefunctions",
-  "Quantising gravity",
-  "Evaporating black holes",
-  "Increasing entropy",
+  "Баним СексиСосу.",
+  "Не отписываем посты",
+  "Добавляем барашек",
+  "Убиваем ролевиков",
+  "Притворяемся что любим ролевиков",
+  "Бомбим спутник",
+  "Создаем мемы",
+  "Прокрастинируем",
 ];
 
 // Switch loading screen text every 2 seconds.
@@ -24,7 +23,7 @@ const switchLoadText = setInterval(() => {
 export const onLoaded = () => {
   clearInterval(switchLoadText);
   const loadText = document.getElementById("loader-text") as HTMLDivElement;
-  loadText.textContent = "Click to continue...";
+  loadText.textContent = "Кликни чтобы глянуть...";
 
   const loadIcon = document.getElementById("loader-circle") as HTMLDivElement;
   const svg = loadIcon.children[0] as HTMLElement;

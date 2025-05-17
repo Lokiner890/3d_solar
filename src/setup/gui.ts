@@ -5,7 +5,7 @@ import { LAYERS } from "../constants";
 export const options = {
   showPaths: false,
   showMoons: true,
-  focus: "Sun",
+  focus: "Звезда",
   clock: true,
   speed: 0.125,
   zangle: 0,

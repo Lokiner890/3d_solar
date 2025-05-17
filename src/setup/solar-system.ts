@@ -38,7 +38,7 @@ export const createSolarSystem = (
     }
   }
 
-  scene.add(solarSystem["Sun"].mesh);
+  scene.add(solarSystem["Звезда"].mesh);
   setTextureCount(textureCount);
 
   return [solarSystem, traversable];

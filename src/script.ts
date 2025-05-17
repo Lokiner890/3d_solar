@@ -80,15 +80,15 @@ const changeFocus = (oldFocus: string, newFocus: string) => {
 const aspect = sizes.width / sizes.height;
 const camera = new THREE.PerspectiveCamera(75, aspect, 0.1, 1000);
 camera.position.set(0, 20, 0);
-solarSystem["Sun"].mesh.add(camera);
+solarSystem["Звезда"].mesh.add(camera);
 
 // Controls
 const fakeCamera = camera.clone();
 const controls = new OrbitControls(fakeCamera, canvas);
-controls.target = solarSystem["Sun"].mesh.position;
+controls.target = solarSystem["Звезда"].mesh.position;
 controls.enableDamping = true;
 controls.enablePan = false;
-controls.minDistance = solarSystem["Sun"].getMinDistance();
+controls.minDistance = solarSystem["Звезда"].getMinDistance();
 controls.maxDistance = 50;
 
 // Label renderer
